@@ -1,0 +1,107 @@
+"C:\Program Files\Java\jdk-17.0.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\lib\idea_rt.jar=4672:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\ChudiSoft\Downloads\attachment_2(1)\out\production\attachment_2(1)" ResidenceSystemA5Q1
+-------Initializing the system-------
+-------Getting Residence information-------
+Enter the name of the Residence: TestResidence
+Enter the integer label of the first bed: 1
+Enter the integer label of the last bed: 5
+-------Running the system-------
+Options:
+	1: Quit
+	2: Add a new student
+	3: Add a new manager
+	4: Assign a manager to a student
+	5: Display the empty beds of the residence
+	6: Assign a student a bed
+	7: Release a student
+	8: Drop manager-student association
+	9: Display current system state
+Enter your selection {1-9}: 2
+-------Adding Student to Residence-------
+Enter the name of the student: TestStudent1
+Enter the social insurance number of the student: 1234
+Enter the NSID of the student: NS1234
+Options:
+	1: Quit
+	2: Add a new student
+	3: Add a new manager
+	4: Assign a manager to a student
+	5: Display the empty beds of the residence
+	6: Assign a student a bed
+	7: Release a student
+	8: Drop manager-student association
+	9: Display current system state
+Enter your selection {1-9}: 2
+-------Adding Student to Residence-------
+Enter the name of the student: TestStudent2
+Enter the social insurance number of the student: 1235
+Enter the NSID of the student: NS1235
+Options:
+	1: Quit
+	2: Add a new student
+	3: Add a new manager
+	4: Assign a manager to a student
+	5: Display the empty beds of the residence
+	6: Assign a student a bed
+	7: Release a student
+	8: Drop manager-student association
+	9: Display current system state
+Enter your selection {1-9}: 6
+-------Assigning a Student to a Bed-------
+Enter the NSID of the student: NS1234
+Enter the bed number for the student: 2
+Options:
+	1: Quit
+	2: Add a new student
+	3: Add a new manager
+	4: Assign a manager to a student
+	5: Display the empty beds of the residence
+	6: Assign a student a bed
+	7: Release a student
+	8: Drop manager-student association
+	9: Display current system state
+Enter your selection {1-9}: 5
+1
+3
+4
+5
+Options:
+	1: Quit
+	2: Add a new student
+	3: Add a new manager
+	4: Assign a manager to a student
+	5: Display the empty beds of the residence
+	6: Assign a student a bed
+	7: Release a student
+	8: Drop manager-student association
+	9: Display current system state
+Enter your selection {1-9}: 7
+Enter Student's NSID:
+NS1234
+The selected student has been removed from his/her bed!
+Options:
+	1: Quit
+	2: Add a new student
+	3: Add a new manager
+	4: Assign a manager to a student
+	5: Display the empty beds of the residence
+	6: Assign a student a bed
+	7: Release a student
+	8: Drop manager-student association
+	9: Display current system state
+Enter your selection {1-9}: 5
+1
+2
+3
+4
+5
+Options:
+	1: Quit
+	2: Add a new student
+	3: Add a new manager
+	4: Assign a manager to a student
+	5: Display the empty beds of the residence
+	6: Assign a student a bed
+	7: Release a student
+	8: Drop manager-student association
+	9: Display current system state
+Enter your selection {1-9}:
